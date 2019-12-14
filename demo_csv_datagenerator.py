@@ -21,6 +21,9 @@ df = pd.DataFrame(columns=['x_coordinate', 'y_coordinate', 'Azimuth', 'Elevation
 #    beam_number.append(int(beam/30))
 azimuthRad_list=[]
 radius_list = []
+
+fig = plt.figure()
+
 ax = plt.subplot(111, projection='polar')
 
 for i in range(no_of_dataset):
@@ -36,3 +39,4 @@ for i in range(no_of_dataset):
 export_csv = df.to_csv (r'export_dataframe.csv', index = None, header=True)
 ax.scatter(azimuthRad_list, radius_list)
 plt.show()
+fig.savefig('Beam_scatter-plot.jpg')
