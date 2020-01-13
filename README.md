@@ -1,3 +1,3 @@
 # BeamPrediction
 
-Refference: https://github.com/lasseufpa/5gm-beam-selection
+Reference: https://github.com/lasseufpa/5gm-beam-selection
