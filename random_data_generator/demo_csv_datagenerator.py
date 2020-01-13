@@ -12,9 +12,9 @@ import random
 import matplotlib.pyplot as plt
 
 grid_size = 8;
-no_of_dataset = 500;
-graph_beam_number = 5
-beam_angle = 30
+no_of_dataset = 5000;
+graph_beam_number = 8;
+beam_angle = 30;
 
 df = pd.DataFrame(columns=['x_coordinate', 'y_coordinate', 'Azimuth', 'Elevation', 'Beam Strength(dB)','Beam Number'])
 
